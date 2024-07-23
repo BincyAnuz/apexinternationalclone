@@ -1,0 +1,152 @@
+* {
+  margin:0;
+  padding:0;
+}
+.nav-logo {
+  margin-left:350px;
+  margin-top:30px;
+}
+#top-bar {
+  height:45px;
+  width:100%;
+  background-color: #292961;
+  display:flex;
+}
+.top-bar-list{
+  display:flex;
+  list-style-type: none;
+}
+#top-bar-button {
+  margin-left:25px;
+  margin-top:8px;
+  height:30px;
+  width:125px;
+  background-color: #1d89e6;
+  color:white;
+  font-size: 14px;
+  font-weight: 500;
+  border:none;
+  border-radius: 50px;
+  padding-bottom:3px;
+}
+
+.top-bar-items {
+  display:flex;
+  margin-top:12px;
+  margin-left:30px;
+  color:white;
+  font-size: 14px;
+  font-weight: 500;
+}
+.social-icon {
+  margin-left:450px;
+}
+.social-icon-list {
+  display:flex;
+  list-style-type: none;
+}
+.icon-list {
+  padding: 10px;
+  color:white;
+}
+.navbar-items {
+  display: flex;
+  height:100px;
+}
+.nav-items {
+  margin-top:30px;
+  margin-left: 200px;
+}
+.slider {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.slide {
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  animation: slideAnimation 10s infinite;
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+.slide1 {
+  background-image: url('https://lh3.googleusercontent.com/p/AF1QipO6z8Av-BTny_jKe6xT0s6SdwrnCBNqEImEUhI7=s1360-w1360-h1020');
+  animation-delay: 0s;
+}
+
+.slide2 {
+  background-image: url('https://content3.jdmagicbox.com/comp/kozhikode/dc/0495px495.x495.111128112950.g9q4dc/catalogue/apex-international-school-olavanna-kozhikode-international-schools-98682glqzh.jpg');
+  animation-delay: 5s;
+}
+#about-school {
+  display:flex;
+  margin-top: 50px;
+}
+@keyframes slideAnimation {
+  0% { opacity: 0; }
+  20% { opacity: 1; }
+  40% { opacity: 1; }
+  60% { opacity: 0; }
+  100% { opacity: 0; }
+}
+.slide-heading {
+  margin-top:120px;
+  margin-left:70px;
+  color:white;
+  font-size: 50px;
+  font-weight:600;
+  line-height:1.4;
+}
+.slide-paragragh {
+  color:rgba(255, 255, 255, .7);
+  font-size:15px;
+  font-weight:400;
+  margin-top:10px;
+  line-height: 1.9;
+  margin-left:300px ;
+  word-wrap: break-word;
+}
+.slide-button{
+  background-color: #292961;
+  margin-top:30px;
+  margin-left:300px;
+  color:white;
+  border-radius: 25px;
+  border:none;
+  width:130px;
+  height:45px;
+}
+.school-news {
+  margin-top:50px;
+
+}
+.social-streams {
+  margin-top:80px;
+}
+.social-div {
+  display:flex;
+  margin-left:350px;
+}
+.online-button {
+  background-color: #292961;
+  border:none;
+  color:white;
+  width:125px;
+  height:50px;
+}
+.footer-list {
+  list-style-type: none;
+  margin-top:50px
+}
+
+@media (max-width:990px) {
+  #top-bar.hidden-sm-down {
+    display: none !important;
+}
+}
