@@ -17,7 +17,7 @@
   list-style-type: none;
 }
 #top-bar-button {
-  margin-left:25px;
+  margin-left:2px;
   margin-top:8px;
   height:30px;
   width:125px;
@@ -55,7 +55,6 @@
 }
 .nav-items {
   margin-top:30px;
-  margin-left: 200px;
 }
 .slider {
   position: relative;
@@ -96,8 +95,8 @@
   100% { opacity: 0; }
 }
 .slide-heading {
-  margin-top:120px;
-  margin-left:70px;
+  margin-top:40px;
+  margin-left:50px;
   color:white;
   font-size: 50px;
   font-weight:600;
